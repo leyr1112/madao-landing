@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Montserrat:wght@100&display=swap');
+h1{
+    /* text-align: center; */
+    font-size: 25px;
+}
+#Team{
+    /* background-image: url(./../../images/bg-section-2.jpg); */
+  background-size: cover;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+img{
+    display: block;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+}
+.nft-cols {
+    text-align: center;
+}
+.nft-cols img{
+    margin-bottom: 10px;
+}
+/* .para{
+    width: 90%;
+    text-align: center;
+} */
+@media screen and (max-width:480px) {
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #00ffff;
+}
+.team-para >p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    /* padding: 0px 150px; */
+}
+.image-team{
+    width: 30%;
+   border-radius: 50%;
+   padding: 30px 0px;
+}
+.border-class > h2{
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+}
+.border-class > h3{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #636779;
+    text-align: center;
+}
+.border-class > a{
+    margin: 30px 30px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #f3a501;
+    text-align: left;
+}
+.border-class{
+    padding: 20px;
+    text-align: center;
+    background-color: #030017;
+    /* margin: 10px; */
+    border:2px solid #08003d;
+    /* padding: 80px 0px; */
+    border-radius: 10px;
+
+}
+.border-class:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.hidden_intro{
+    display: none;
+    transition: all 1s ease;
+    background-color:rgba(0,0,0,0.85);
+    color:white;
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    padding:0px 10px;
+   padding-top:100px;
+}
+.border-class:hover .hidden_intro{
+    display: block;
+}
+.team-head{
+color: #00ffff;
+font-weight: bolder;
+font-size: 40px;
+    text-align: center;
+}
+
+.about-text >h1{
+    color: #f3a501;
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.about-text >h2{
+    color: white;
+    font-size: 45px;
+    font-family: 'Irish Grover', cursive;
+}
+
+.about-text >h3{
+    color: #9198a6;
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+}
+.about-text button{
+    margin: 30px 0px;
+    color: black;
+    background-color: #f3a501;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+}
+.icon-sec{
+    text-align: center;
+    padding: auto;
+    width: 70px;
+    margin-bottom: 0px;
+    border-radius: 1000px;
+}
+.icon-textt{
+    padding: 20px 30px;
+    float: right;
+    text-align: left;
+}
+.icon-textt >h1{ 
+    text-align: left;
+    font-family: 'Irish Grover', cursive;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.icon-textt >h2{ 
+    text-align: left;
+    font-weight: normal;
+    color: #9198a6;
+    font-size: 15px;
+}

@@ -1,0 +1,63 @@
+:root {
+  --theme-color: #00e8f2;
+}
+.navbar-brand >h1{
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.nav-link {
+  color: #ffae00 !important;
+  font-size: 15px;
+  font-weight: bolder;
+  margin: 10px 10px;
+}
+.navBar {
+  position: fixed;
+  z-index: 1;
+  background-color: black!important;
+}
+.goRight{
+  justify-content: flex-end;
+}
+.navbar .socials i {
+  color: black;
+  padding: 10px 15px;
+  border-radius: 100px;
+  background-color: white;
+  font-size: 15px;
+}
+.navbar .socials i:hover {
+  font-size: 25px;
+}
+.socials >a{
+  margin: 5px 5px;
+}
+.btn-sea button{
+  background-color: #ffae00;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  font-size: 15px;
+}
+.btn-sea button:hover{
+  border: 1px solid white;
+}
+@media (min-width: 768px){
+.navbar-expand-md .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    flex: 1;
+    /* justify-content: space-between; */
+}
+}
+
+.navbar-nav {
+ 
+  justify-content: inherit;
+  flex:3;
+}

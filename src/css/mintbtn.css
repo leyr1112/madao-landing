@@ -1,0 +1,43 @@
+.mint-btn {
+  border: 1px solid white;
+  color: black;
+  background-color: #fcdc1f;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-family: MuseoSlab;
+  margin: 0 5px;
+  border: none;
+}
+.mintwrap {
+  display: flex;
+}
+.minus,
+.plus {
+  font-size: 25px;
+  line-height: 0;
+  font-weight: 600;
+  width: 53px;
+  height: 53px;
+  padding: 0;
+  border-radius: 3px;
+  background-color: #fcdc1f !important;
+  border: none;
+  color: black !important;
+}
+.mintingsection {
+  z-index: 3;
+  position: relative;
+}
+.mint-btn b {
+  font-weight: 900 !important;
+  font-size: 22px;
+}
+.mintwrap {
+  display: flex;
+}
+.yellow * {
+  font-weight: 600;
+}

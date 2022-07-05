@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Montserrat:wght@100&display=swap');
+.mastermind >img{
+  width: 100%;
+}
+.mastermind-text >h1{
+color: white;
+font-size: 52px;
+font-family: 'Irish Grover', cursive;
+text-align: left;
+}
+.mastermind-text >p{
+  color: #aaaaaa;
+  font-size:small;
+  }
+
+  .mastermind-text h1>span{
+    color: #ffae00;
+  }
+  .mint-button{
+    color: white;
+    background-color:  #ffae00;
+    border: none;
+    font-size: 25px ;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 10px;
+
+  }
+  .eth-button{
+    color: white;
+    background-color:  transparent;
+    border: none;
+    font-size: 25px ;
+    margin: 10px;
+  }
+  .card-head>h1{
+    color: white;
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+    padding: 90px 0px;
+    font-size: 40px;
+  }
